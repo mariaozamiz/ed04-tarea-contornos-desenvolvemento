@@ -1,3 +1,6 @@
+/** La clase CCuenta representa una cuenta bancaria. Permite realizar operaciones como ingresos, retiros y consulta de saldo.
+ * 
+ */
 public class CCuenta {
 
 
@@ -5,6 +8,15 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
+    
+    /**
+     * Constructor de la clase CCuenta.
+     * 
+     * @param nombre       El nombre del titular de la cuenta.
+     * @param cuenta       El número de cuenta.
+     * @param saldo        El saldo inicial de la cuenta.
+     * @param tipoInterés  El tipo de interés de la cuenta.
+     */
 
     public CCuenta()
     {
